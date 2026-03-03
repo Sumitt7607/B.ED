@@ -26,11 +26,11 @@ const Index = () => (
     <UniversityTypesSection />
     {/* <CurriculumSection /> */}
     <CareersSection />
-    <FeeSection />- 
+    <FeeSection /> 
     <DatesSection />
     <CommonMistakes/>
-    <EntranceExams/>  
-    <GovtVsPrivate/>
+    {/* <EntranceExams/>  
+    <GovtVsPrivate/> */}
     <WhyUsSection />
     {/* <TestimonialsSection />
     <FAQSection /> */}
