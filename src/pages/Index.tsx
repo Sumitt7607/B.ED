@@ -14,6 +14,8 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import UniversityTypesSection from "@/components/UniversityTypesSection";
 import CommonMistakes from "@/components/CommonMistakes"
+import GovtVsPrivate from "@/components/GovtVsPrivate";
+import EntranceExams from "@/components/EntranceExams"; 
 const Index = () => (
   <div className="min-h-screen bg-background">
     {/* <Navbar /> */}
@@ -24,9 +26,11 @@ const Index = () => (
     <UniversityTypesSection />
     {/* <CurriculumSection /> */}
     <CareersSection />
-    <FeeSection />
+    <FeeSection />- 
     <DatesSection />
-    {/* <CommonMistakes/> */}
+    <CommonMistakes/>
+    <EntranceExams/>  
+    <GovtVsPrivate/>
     <WhyUsSection />
     {/* <TestimonialsSection />
     <FAQSection /> */}
