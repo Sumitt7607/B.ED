@@ -7,18 +7,18 @@ const semesters = [
     subjects: [
       "Childhood & Growing Up",
       "Contemporary India & Education",
-      "Language Across the Curriculum",
+      "Language Across The Curriculum",
       "Understanding Disciplines & Subjects",
-      "Pedagogy of School Subject - I",
+      "Pedagogy Of School Subject - I",
     ],
   },
   {
     title: "Semester II",
     subjects: [
       "Learning & Teaching",
-      "Assessment for Learning",
-      "ICT in Education",
-      "Pedagogy of School Subject - II",
+      "Assessment For Learning",
+      "ICT In Education",
+      "Pedagogy Of School Subject - II",
       "School Internship - I (4 weeks)",
     ],
   },
@@ -26,7 +26,7 @@ const semesters = [
     title: "Semester III",
     subjects: [
       "Knowledge & Curriculum",
-      "Inclusive School: Creating an Enabling Environment",
+      "Inclusive School: Creating An Enabling Environment",
       "Gender, School & Society",
       "School Internship - II (16 weeks)",
       "Community Engagement Programs",
@@ -35,10 +35,10 @@ const semesters = [
   {
     title: "Semester IV",
     subjects: [
-      "Reading & Reflecting on Texts",
-      "Understanding the Self",
+      "Reading & Reflecting On Texts",
+      "Understanding The Self",
       "Optional Course (Guidance & Counseling / Health & Physical Education)",
-      "Drama & Art in Education",
+      "Drama & Art In Education",
       "Action Research / Dissertation",
     ],
   },
@@ -53,7 +53,7 @@ const CurriculumSection = () => (
           B.Ed <span className="text-gradient-saffron">Curriculum</span>
         </h2>
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-14">
-          Our 2-year program is divided into 4 semesters, combining theoretical knowledge with extensive practical training.
+          Our 2-year Program Is Divided Into 4 Semesters, Combining Theoretical Knowledge With Extensive Practical Training.
         </p>
       </AnimatedSection>
 

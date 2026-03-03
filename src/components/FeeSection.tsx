@@ -4,44 +4,34 @@ import { CheckCircle2, Star } from "lucide-react";
 
 const plans = [
   {
-    title: "Government College",
-    price: "₹10,000 - ₹25,000",
-    period: "per year",
+    title: "Government B.Ed College",
+    price: "₹8,000 - ₹40,000",
+    period: "per year (2-Year Program)",
     highlight: false,
     features: [
-      "Low tuition fees",
-      "Government-approved faculty",
-      "Library & lab access",
-      "Merit-based admission",
-      "Scholarship available",
+      "NCTE & State Government Approved",
+      "2-Year Regular B.Ed Degree",
+      "Entrance Exam Based Admission",
+      "Experienced Government Faculty",
+      "Teaching Internship in Recognized Schools",
+      "Library, Psychology Lab & ICT Lab Access",
+      "State & Central Scholarship Schemes Available",
     ],
   },
   {
-    title: "Our Institution",
-    price: "₹35,000 - ₹50,000",
-    period: "per year",
-    highlight: true,
-    features: [
-      "NCTE approved program",
-      "Experienced faculty panel",
-      "Smart classrooms & ICT labs",
-      "Placement assistance",
-      "Flexible payment options",
-      "Scholarship up to 50%",
-      "Hostel facility available",
-    ],
-  },
-  {
-    title: "Private University",
-    price: "₹50,000 - ₹1,50,000",
-    period: "per year",
+    title: "Private University (B.Ed)",
+    price: "₹60,000 - ₹1,50,000",
+    period: "per year (2-Year Regular Program)",
     highlight: false,
     features: [
-      "Premium infrastructure",
-      "International exposure",
-      "Advanced pedagogy training",
-      "Industry partnerships",
-      "Campus placements",
+      "NCTE Approved & UGC Recognized University",
+      "2-Year Regular B.Ed Degree",
+      "Entrance / Merit-Based Admission",
+      "Modern Smart Classrooms & ICT Enabled Campus",
+      "Psychology Lab, Education Technology Lab & Library Access",
+      "16–20 Weeks Mandatory School Internship",
+      "Career Guidance & Placement Assistance",
+      "On-Campus Hostel & Transportation Facility",
     ],
   },
 ];
@@ -50,16 +40,21 @@ const FeeSection = () => (
   <section id="fees" className="section-padding bg-background">
     <div className="max-w-7xl mx-auto">
       <AnimatedSection>
-        <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3 text-center">Investment</p>
+        <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3 text-center">
+          Investment
+        </p>
+
         <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4 text-center">
           Fee <span className="text-gradient-saffron">Structure</span>
         </h2>
+
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-14">
-          Compare fee structures across different types of institutions and find the best fit for you.
+          Compare Fee Structures Across Different Types Of Institutions And Find The Best Fit For You.
         </p>
       </AnimatedSection>
 
-      <div className="grid md:grid-cols-3 gap-8 items-stretch">
+      {/* Centered 2 Cards Layout */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         {plans.map((plan, i) => (
           <AnimatedSection key={i} delay={i * 0.15}>
             <motion.div
@@ -73,38 +68,50 @@ const FeeSection = () => (
               {plan.highlight && (
                 <div className="flex items-center gap-2 mb-4">
                   <Star className="w-5 h-5 fill-current" />
-                  <span className="text-sm font-bold uppercase tracking-wide">Recommended</span>
+                  <span className="text-sm font-bold uppercase tracking-wide">
+                    Recommended
+                  </span>
                 </div>
               )}
-              <h3 className={`font-display text-xl font-bold mb-2 ${plan.highlight ? "" : "text-foreground"}`}>
+
+              <h3
+                className={`font-display text-xl font-bold mb-2 ${
+                  plan.highlight ? "" : "text-foreground"
+                }`}
+              >
                 {plan.title}
               </h3>
+
               <div className="mb-1">
-                <span className={`text-3xl font-display font-bold ${plan.highlight ? "" : "text-foreground"}`}>
+                <span
+                  className={`text-3xl font-display font-bold ${
+                    plan.highlight ? "" : "text-foreground"
+                  }`}
+                >
                   {plan.price}
                 </span>
               </div>
-              <p className={`text-sm mb-6 ${plan.highlight ? "opacity-80" : "text-muted-foreground"}`}>
+
+              <p
+                className={`text-sm mb-6 ${
+                  plan.highlight ? "opacity-80" : "text-muted-foreground"
+                }`}
+              >
                 {plan.period}
               </p>
+
               <ul className="space-y-3 flex-1">
-                {plan.features.map((f, j) => (
+                {plan.features.map((feature, j) => (
                   <li key={j} className="flex items-start gap-2 text-sm">
-                    <CheckCircle2 className={`w-4 h-4 mt-0.5 flex-shrink-0 ${plan.highlight ? "" : "text-primary"}`} />
-                    <span className="leading-relaxed">{f}</span>
+                    <CheckCircle2
+                      className={`w-4 h-4 mt-0.5 flex-shrink-0 ${
+                        plan.highlight ? "" : "text-primary"
+                      }`}
+                    />
+                    <span className="leading-relaxed">{feature}</span>
                   </li>
                 ))}
               </ul>
-              <a
-                href="#contact"
-                className={`mt-8 block text-center py-3 rounded-xl font-bold transition-all ${
-                  plan.highlight
-                    ? "bg-primary-foreground text-primary hover:opacity-90"
-                    : "gradient-saffron text-primary-foreground hover:opacity-90"
-                }`}
-              >
-                Get Details
-              </a>
             </motion.div>
           </AnimatedSection>
         ))}

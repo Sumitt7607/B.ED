@@ -7,12 +7,12 @@ import {
 } from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "What is the duration of the B.Ed program?", a: "The B.Ed program is a 2-year (4 semesters) full-time course as per NCTE norms. It includes both theoretical studies and practical school internships." },
-  { q: "Is B.Ed compulsory for becoming a teacher?", a: "Yes, B.Ed is mandatory for teaching at secondary and higher secondary levels in both government and private schools in India, as per the RTE Act 2009." },
-  { q: "Can I pursue B.Ed through distance learning?", a: "Yes, some universities offer B.Ed through ODL (Open Distance Learning) mode approved by NCTE. However, regular mode is preferred by most employers." },
-  { q: "What are the entrance exams for B.Ed?", a: "Popular entrance exams include state-level B.Ed entrance tests, BHU B.Ed, DU B.Ed, IGNOU B.Ed, UP B.Ed JEE, MAH B.Ed CET, and others." },
-  { q: "Are there scholarships available?", a: "Yes! We offer merit-based scholarships up to 50%, SC/ST fee concessions, and education loans through partnered banks." },
-  { q: "What subjects can I specialize in?", a: "You can choose from various teaching subjects like Mathematics, Science, Social Studies, English, Hindi, Computer Science, and Commerce based on your graduation background." },
+  { q: "What Is The Duration Of The B.Ed Program?", a: "The B.Ed Program Is a 2-Year (4 Semesters) Full-Time Course As Per NCTE Norms. It Includes Both Theoretical Studies And Practical School Internships." },
+  { q: "Is B.Ed Compulsory For Becoming A Teacher?", a: "Yes, B.Ed Is Mandatory For Teaching At Secondary And Higher Secondary Levels In Both Government And Private Schools In India, As Per The RTE Act 2009." },
+  { q: "Can I pursue B.Ed Through Distance Learning?", a: "Yes, Some Universities Offer B.Ed Through ODL (Open Distance Learning) Mode Approved By NCTE. However, Regular Mode Is Preferred By Most Employers." },
+  { q: "What Are The Entrance Exams For B.Ed?", a: "Popular Entrance Exams Include State-Level B.Ed Entrance Tests, BHU B.Ed, DU B.Ed, IGNOU B.Ed, UP B.Ed JEE, MAH B.Ed CET, And Others." },
+  { q: "Are There Scholarships Available?", a: "Yes! We offer Merit-Based Scholarships Up To 50%, SC/ST Fee Concessions, And Education Loans Through Partnered Banks." },
+  { q: "What Subjects Can I Specialize In?", a: "You Can Choose From Various Teaching Subjects Like Mathematics, Science, Social Studies, English, Hindi, Computer Science, And Commerce Based On Your Graduation Background." },
 ];
 
 const FAQSection = () => (

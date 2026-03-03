@@ -2,45 +2,63 @@ import AnimatedSection from "./AnimatedSection";
 import { Calendar, Clock } from "lucide-react";
 
 const dates = [
-  { event: "Application Form Available", date: "March 15, 2026", status: "open" },
-  { event: "Last Date for Registration", date: "May 31, 2026", status: "upcoming" },
-  { event: "Entrance Exam Date", date: "June 20, 2026", status: "upcoming" },
-  { event: "Result Declaration", date: "July 10, 2026", status: "upcoming" },
-  { event: "Counseling Round 1", date: "July 20-25, 2026", status: "upcoming" },
-  { event: "Counseling Round 2", date: "August 1-5, 2026", status: "upcoming" },
-  { event: "Classes Commence", date: "August 20, 2026", status: "upcoming" },
+  { event: "Application Forms Start", date: "April 1, 2026", status: "Open" },
+  { event: "Last Date of Online Registration", date: "May 30, 2026", status: "Upcoming" },
+  { event: "B.Ed Entrance Examination", date: "June 15, 2026", status: "Upcoming" },
+  { event: "Result Declaration", date: "July 5, 2026", status: "Upcoming" },
+  { event: "Counselling & Seat Allotment (Round 1)", date: "July 15–20, 2026", status: "Upcoming" },
+  { event: "Document Verification & Fee Submission", date: "July 25–30, 2026", status: "Upcoming" },
+  { event: "Commencement of Classes (Session 2026–28)", date: "August 20, 2026", status: "Upcoming" },
 ];
 
 const DatesSection = () => (
-  <section className="section-padding gradient-warm">
-    <div className="max-w-4xl mx-auto">
+  <section className="section-padding bg-background">
+    <div className="max-w-5xl mx-auto">
       <AnimatedSection>
-        <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3 text-center">Timeline</p>
-        <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-14 text-center">
-          Important <span className="text-gradient-saffron">Dates</span>
+        <p className="text-saffron-600 font-semibold text-base uppercase tracking-widest mb-3 text-center">
+          Admission Timeline 2026–28
+        </p>
+
+        <h2 className="font-display text-5xl md:text-6xl font-bold text-center mb-16">
+          Important <span className="text-gradient-saffron">B.Ed Dates</span>
         </h2>
       </AnimatedSection>
 
-      <div className="space-y-4">
+      <div className="space-y-6">
         {dates.map((d, i) => (
           <AnimatedSection key={i} delay={i * 0.08}>
-            <div className="flex items-center gap-4 bg-card rounded-xl p-5 shadow-card hover:shadow-saffron transition-shadow border border-border">
-              <div className={`w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 ${
-                d.status === "open" ? "gradient-saffron animate-pulse-glow" : "bg-muted"
-              }`}>
-                {d.status === "open" ? (
-                  <Clock className="w-5 h-5 text-primary-foreground" />
+            <div className="flex items-center gap-6 bg-card rounded-2xl p-6 shadow-card hover:shadow-saffron transition-all border border-border">
+              
+              {/* Icon */}
+              <div
+                className={`w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0 ${
+                  d.status === "Open"
+                    ? "gradient-saffron animate-pulse-glow"
+                    : "bg-muted"
+                }`}
+              >
+                {d.status === "Open" ? (
+                  <Clock className="w-6 h-6 text-primary-foreground" />
                 ) : (
-                  <Calendar className="w-5 h-5 text-muted-foreground" />
+                  <Calendar className="w-6 h-6 text-muted-foreground" />
                 )}
               </div>
+
+              {/* Event Name */}
               <div className="flex-1">
-                <h3 className="font-display font-bold text-foreground">{d.event}</h3>
+                <h3 className="font-display text-xl md:text-2xl font-bold text-foreground">
+                  {d.event}
+                </h3>
               </div>
+
+              {/* Date */}
               <div className="text-right">
-                <span className="font-semibold text-foreground">{d.date}</span>
-                {d.status === "open" && (
-                  <span className="block text-xs gradient-saffron text-primary-foreground px-2 py-0.5 rounded-full mt-1 w-fit ml-auto font-bold">
+                <span className="text-lg md:text-xl font-semibold text-foreground">
+                  {d.date}
+                </span>
+
+                {d.status === "Open" && (
+                  <span className="block text-xs gradient-saffron text-primary-foreground px-3 py-1 rounded-full mt-2 w-fit ml-auto font-bold">
                     OPEN NOW
                   </span>
                 )}

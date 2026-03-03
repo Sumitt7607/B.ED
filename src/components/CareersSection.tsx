@@ -27,12 +27,14 @@ const careers = [
     desc: "Develop Textbooks, Lesson Plans, And Digital Learning Materials For Publishers Or EdTech Companies.", 
     salary: "₹3–6 LPA" 
   },
+
   { 
     icon: Briefcase, 
     title: "Education Counselor / Consultant", 
     desc: "Guide Students In Academic Planning And Admissions After Gaining Relevant Experience.", 
     salary: "₹3–9 LPA" 
   },
+
   { 
     icon: Award, 
     title: "Higher Studies (M.Ed / Ph.D)", 

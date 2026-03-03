@@ -2,30 +2,32 @@ import AnimatedSection from "./AnimatedSection";
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "15+", label: "Years of Excellence" },
-  { value: "98%", label: "Placement Rate" },
-  { value: "50+", label: "Expert Faculty" },
-  { value: "5000+", label: "Alumni Network" },
+  { value: "10,000+", label: "Students Guided Successfully" },
+  { value: "500+", label: "Partner Colleges Across India" },
+  { value: "98%", label: "Admission Success Rate" },
+  { value: "24/7", label: "Student Support Assistance" },
 ];
 
 const reasons = [
-  "State-of-the-art smart classrooms and laboratories",
-  "Tie-ups with 200+ schools for internship programs",
-  "Regular workshops by education leaders & policymakers",
-  "Dedicated placement cell with career guidance",
-  "Scholarship programs for meritorious students",
-  "Sports, cultural & co-curricular activities",
-  "Digital library with 50,000+ academic resources",
-  "Well-equipped hostel with modern amenities",
+  "Complete Guidance For B.Ed Admission Process",
+  "Assistance With Entrance Exams & Counseling",
+  "Tie-ups With Government, Private & Deemed Universities",
+  "Transparent Fee Structure & Verified Colleges",
+  "Scholarship & Education Loan Guidance",
+  "Document Verification & Application Support",
+  "Personalized Career Counseling For Teaching Career",
+  "End-to-End Admission Support Until Enrollment",
 ];
 
 const WhyUsSection = () => (
   <section className="section-padding bg-background">
     <div className="max-w-7xl mx-auto">
       <AnimatedSection>
-        <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3 text-center">Our Strengths</p>
+        <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3 text-center">
+          Our Strength
+        </p>
         <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-14 text-center">
-          Why Choose <span className="text-gradient-saffron">Us?</span>
+          Why Choose <span className="text-gradient-saffron">Our B.Ed Admission Guidance?</span>
         </h2>
       </AnimatedSection>
 
@@ -42,8 +44,12 @@ const WhyUsSection = () => (
                 transition={{ delay: i * 0.15, duration: 0.5 }}
                 className="text-center"
               >
-                <div className="text-4xl md:text-5xl font-display font-bold text-primary-foreground">{s.value}</div>
-                <div className="text-primary-foreground/80 text-sm mt-1">{s.label}</div>
+                <div className="text-4xl md:text-5xl font-display font-bold text-primary-foreground">
+                  {s.value}
+                </div>
+                <div className="text-primary-foreground/80 text-sm mt-1">
+                  {s.label}
+                </div>
               </motion.div>
             ))}
           </div>
@@ -61,7 +67,9 @@ const WhyUsSection = () => (
               <span className="w-8 h-8 rounded-lg gradient-saffron flex items-center justify-center text-primary-foreground font-bold text-xs flex-shrink-0">
                 {String(i + 1).padStart(2, "0")}
               </span>
-              <span className="text-foreground text-sm leading-relaxed">{r}</span>
+              <span className="text-foreground text-sm leading-relaxed">
+                {r}
+              </span>
             </motion.div>
           </AnimatedSection>
         ))}

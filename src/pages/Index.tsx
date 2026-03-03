@@ -12,7 +12,8 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-
+import UniversityTypesSection from "@/components/UniversityTypesSection";
+import CommonMistakes from "@/components/CommonMistakes"
 const Index = () => (
   <div className="min-h-screen bg-background">
     {/* <Navbar /> */}
@@ -20,12 +21,14 @@ const Index = () => (
     <AboutSection />
     <EligibilitySection />
     <ProcessSection />
+    <UniversityTypesSection />
     {/* <CurriculumSection /> */}
     <CareersSection />
-    {/* <FeeSection /> */}
-    {/* <DatesSection />
+    <FeeSection />
+    <DatesSection />
+    {/* <CommonMistakes/> */}
     <WhyUsSection />
-    <TestimonialsSection />
+    {/* <TestimonialsSection />
     <FAQSection /> */}
     <ContactSection />
     {/* <Footer /> */}

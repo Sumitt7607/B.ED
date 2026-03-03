@@ -6,19 +6,19 @@ const testimonials = [
   {
     name: "Priya Sharma",
     role: "B.Ed Graduate 2024",
-    text: "The B.Ed program transformed my passion for teaching into a professional skill set. The practical training in schools was invaluable!",
+    text: "The B.Ed Program Transformed My Passion For Teaching Into a Professional Skill Set. The Practical Training In Schools Was Invaluable!",
     initials: "PS",
   },
   {
     name: "Rajesh Kumar",
     role: "Now Teaching at DPS",
-    text: "Excellent faculty and comprehensive curriculum. I got placed in a top school even before completing my final semester.",
+    text: "Excellent Faculty And Comprehensive Curriculum. I Got Placed In a Top School Even Before Completing My Final Semester.",
     initials: "RK",
   },
   {
     name: "Anita Verma",
     role: "Education Consultant",
-    text: "The B.Ed degree from this institution opened doors I never imagined. The support system and mentoring were outstanding.",
+    text: "The B.Ed Degree From This Institution Opened Doors I Never Imagined. The Support System And Mentoring Were Outstanding.",
     initials: "AV",
   },
 ];
@@ -29,7 +29,7 @@ const TestimonialsSection = () => (
       <AnimatedSection>
         <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3 text-center">Student Voices</p>
         <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-14 text-center">
-          What Our <span className="text-gradient-saffron">Alumni Say</span>
+          What Our alumni <span className="text-gradient-saffron">Alumni Say</span>
         </h2>
       </AnimatedSection>
 

@@ -19,14 +19,6 @@ const HeroSection = () => {
 </div>
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-32 w-full">
         <div className="max-w-3xl">
-          {/* <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="inline-block gradient-saffron px-4 py-1.5 rounded-full text-primary-foreground text-sm font-semibold mb-6"
-          >
-            Admissions Open 2026-27  
-          </motion.div> */}
 
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
@@ -40,14 +32,15 @@ const HeroSection = () => {
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7, delay: 0.7 }}
-            className="text-saffron-100 text-lg md:text-xl max-w-xl mb-10 leading-relaxed font-body"
-          >
-            Shape The Future Of Education. Join Our NCTE-Approved B.Ed Program And Become a Certified, 
-            Passionate Educator Ready To Inspire The Next Generation.
-          </motion.p>
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.7, delay: 0.7 }}
+  className="text-saffron-100 text-lg md:text-xl max-w-xl mb-10 leading-relaxed font-body"
+>
+  Don’t Just Earn a Degree — Build a Legacy in Education. 
+  Join Our NCTE-Approved B.Ed Program and Transform Your Passion for Teaching 
+  into a Powerful, Rewarding Career That Shapes The Leaders Of Tomorrow.
+</motion.p>
 
          
 

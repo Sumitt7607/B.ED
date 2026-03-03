@@ -10,7 +10,7 @@ const ContactSection = () => {
             Get In Touch
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-14 text-center">
-            Contact & <span className="text-gradient-saffron">Us</span>
+            Contact  <span className="text-gradient-saffron">Us</span>
           </h2>
         </AnimatedSection>
 
@@ -21,7 +21,7 @@ const ContactSection = () => {
             {/* Admission Helpline */}
             <div className="gradient-hero rounded-2xl p-8 text-primary-foreground">
               <h3 className="font-display text-2xl font-bold mb-6">
-                Admission Helpline
+                For Admission/Guidance Helpline
               </h3>
 
               <div className="space-y-5">
@@ -72,32 +72,32 @@ const ContactSection = () => {
               <div className="space-y-4 text-foreground">
                 <div className="flex justify-between">
                   <span>Monday</span>
-                  <span className="font-semibold">10:00 AM - 6:00 PM</span>
+                  <span className="font-semibold">09:30 AM - 6:30 PM</span>
                   
                 </div>
                  <div className="flex justify-between">
                   <span>Tuesday</span>
-                  <span className="font-semibold">10:00 AM - 6:00 PM</span>
+                  <span className="font-semibold">09:30 AM - 6:30 PM</span>
                   
                 </div>
                 <div className="flex justify-between">
                   <span>Thursday</span>
-                  <span className="font-semibold">10:00 AM - 6:00 PM</span>
+                  <span className="font-semibold">09:30 AM - 6:30 PM</span>
                   
                 </div>
                 <div className="flex justify-between">
                   <span>Friday</span>
-                  <span className="font-semibold">10:00 AM - 6:00 PM</span>
+                  <span className="font-semibold">09:30 AM - 6:30 PM</span>
                   
                 </div>
 
                 <div className="flex justify-between">
                   <span>Saturday</span>
-                  <span className="font-semibold">10:00 AM - 6:00 PM</span>
+                  <span className="font-semibold">09:30 AM - 6:30 PM</span>
                 </div>
                  <div className="flex justify-between">
                   <span>Sunday</span>
-                  <span className="font-semibold">10:00 AM - 6:00 PM</span>
+                  <span className="font-semibold">09:30 AM - 6:30 PM</span>
                   
                 </div>
                 <div className="flex justify-between text-muted-foreground">

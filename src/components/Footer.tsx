@@ -9,12 +9,12 @@ const Footer = () => (
           B.Ed Admissions 2026
         </div>
         <div className="flex flex-wrap gap-6 text-sm text-saffron-200">
-          <a href="#about" className="hover:text-saffron-300 transition-colors">About</a>
-          <a href="#eligibility" className="hover:text-saffron-300 transition-colors">Eligibility</a>
-          <a href="#process" className="hover:text-saffron-300 transition-colors">Process</a>
-          <a href="#curriculum" className="hover:text-saffron-300 transition-colors">Curriculum</a>
-          <a href="#careers" className="hover:text-saffron-300 transition-colors">Careers</a>
-          <a href="#contact" className="hover:text-saffron-300 transition-colors">Contact</a>
+          <a href="about" className="hover:text-saffron-300 transition-colors">About</a>
+          <a href="eligibility" className="hover:text-saffron-300 transition-colors">Eligibility</a>
+          <a href="process" className="hover:text-saffron-300 transition-colors">Process</a>
+          <a href="curriculum" className="hover:text-saffron-300 transition-colors">Curriculum</a>
+          <a href="careers" className="hover:text-saffron-300 transition-colors">Careers</a>
+          <a href="contact" className="hover:text-saffron-300 transition-colors">Contact</a>
         </div>
       </div>
       <div className="border-t border-saffron-800 mt-8 pt-8 text-center text-sm text-saffron-300">

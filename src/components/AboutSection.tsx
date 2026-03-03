@@ -19,8 +19,7 @@ const AboutSection = () => (
         </h2>
         <p className="text-muted-foreground text-lg max-w-2xl mb-12 leading-relaxed">
           The Bachelor Of Education (B.Ed) Is a Two-Year Professional Degree That Prepares Graduates To Become 
-          Qualified Teachers In Secondary And Higher Secondary Schools. It Is a Mandatory Requirement For Teaching 
-          Positions In Government And Private Schools Across India.
+          Qualified Teachers In Secondary And Higher Secondary Schools.It Is a Mandatory Requirement For Teaching. In Government And Private Schools Across India.
         </p>
       </AnimatedSection>
 

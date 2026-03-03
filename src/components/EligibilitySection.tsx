@@ -3,44 +3,44 @@ import { CheckCircle2, AlertCircle } from "lucide-react";
 
 const criteria = [
   { 
-    text: "Bachelor’s Degree (B.A / B.Sc / B.Com) or equivalent with at least 50% aggregate marks from a recognized university", 
+    text: "Bachelor’s Degree (B.A / B.Sc / B.Com) Or Equivalent With At Least 50% Aggregate Marks From a Recognized University", 
     required: true 
   },
   { 
-    text: "Minimum 55% marks required for candidates with a Master’s degree (as per NCTE norms)", 
+    text: "Minimum 55% Marks Required For Candidates With a Master’s Degree (As Per NCTE Norms)", 
     required: false 
   },
   { 
-    text: "Relaxation of 5% marks (45%) for SC/ST/OBC/PWD and other reserved categories as per government rules", 
+    text: "Relaxation Of 5% Marks (45%) For SC/ST/OBC/PWD And Other Reserved Categories As Per Government Rules", 
     required: true 
   },
   { 
-    text: "Admission is generally based on performance in state-level or university-level entrance examinations", 
+    text: "Admission Is Generally Based On Performance In State-Level Or University-Level Entrance Examinations", 
     required: true 
   },
   { 
-    text: "Candidates appearing in the final year of graduation are eligible to apply, subject to submission of final marksheet at the time of admission", 
+    text: "Candidates Appearing In The Final Year Of Graduation Are Eligible To Apply, Subject To Submission Of Final Marksheet At The Time Of Admission", 
     required: false 
   },
   { 
-    text: "Age criteria may vary by state or university; most institutions do not have an upper age limit", 
+    text: "Age Criteria May Vary By State Or University; Most Institutions Do Not Have An Upper Age Limit", 
     required: false 
   },
 ];
 const documents = [
-  "10th Mark Sheet & Certificate (for Date of Birth proof)",
+  "10th Mark Sheet & Certificate (For Date Of Birth Proof)",
   "12th Mark Sheet & Certificate",
   "Graduation Mark Sheets (All Years/Semesters)",
   "Graduation Degree / Provisional Certificate",
-  "Entrance Exam Score Card / Admit Card (if applicable)",
-  "Transfer Certificate (TC) from last attended institution",
-  "Migration Certificate (if from another university)",
-  "Category Certificate (SC/ST/OBC/EWS) – if applicable",
-  "PWD Certificate – if applicable",
+  "Entrance Exam Score Card / Admit Card (If Applicable)",
+  "Transfer Certificate (TC) From Last Attended Institution",
+  "Migration Certificate (If From Another University)",
+  "Category Certificate (SC/ST/OBC/EWS) – If Applicable",
+  "PWD Certificate – If Applicable",
   "Valid Government ID Proof (Aadhaar Card / PAN / Voter ID)",
   "Recent Passport Size Photographs",
-  "Gap Certificate (if there is a study gap)",
-  "Domicile Certificate (if required by state university)",
+  "Gap Certificate (If There Is A Study Gap)",
+  "Domicile Certificate (If Required By State University)",
 ];
 const EligibilitySection = () => (
   <section id="eligibility" className="section-padding bg-background">
